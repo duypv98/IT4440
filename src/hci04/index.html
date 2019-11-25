@@ -65,7 +65,8 @@
         <div class="sidebar-sticky">
           <ul class="nav flex-column h5 main-nav">
             <li class="nav-item active">
-              <a role="button" class="nav-link" data-toggle="collapse" data-target="#sub-nav-1" aria-expanded="true" aria-controls="sub-nav-1">
+              <a role="button" class="nav-link" data-toggle="collapse" data-target="#sub-nav-1" aria-expanded="true"
+                aria-controls="sub-nav-1">
                 <span>Chức năng chung</span>
               </a>
               <i class="fas fa-chevron-down ml-auto mr-2"></i>
@@ -80,7 +81,8 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a role="button" class="nav-link" data-toggle="collapse" data-target="#sub-nav-2" aria-expanded="true" aria-controls="sub-nav-2">
+              <a role="button" class="nav-link" data-toggle="collapse" data-target="#sub-nav-2" aria-expanded="true"
+                aria-controls="sub-nav-2">
                 <span>Quản trị mục tiêu</span>
               </a>
               <i class="fas fa-chevron-down ml-auto mr-2"></i>
@@ -200,23 +202,32 @@
           </div>
           <!-- End Filter -->
           <!-- Start Table Data -->
-          <table id="table-plan-list" class="table table-bordered table-hover">
+          <table id="table-plan-list" class="Plan-table table table-bordered table-hover">
             <thead class="thead-light">
               <tr>
                 <th scope="col">Mã số
                   <i class="fa fa-fw fa-sort float-right"></i>
                 </th>
-                <th scope="col">Tên kế hoạch
-                  <i class="fa fa-fw float-right"></i>
+                <th scope="col">
+                  <div class="plan-name">
+                    Tên kế hoạch
+                    <i class="fa fa-fw float-right"></i>
+                  </div>
                 </th>
-                <th scope="col">Bộ phận
-                  <i class="fa fa-fw fa-sort float-right"></i>
+                <th scope="col">
+                  <div class="department">
+                    Bộ phận
+                    <i class="fa fa-fw fa-sort float-right"></i>
+                  </div>
                 </th>
                 <th scope="col">Người nộp
                   <i class="fa fa-fw fa-sort float-right"></i>
                 </th>
-                <th scope="col">Trạng thái
-                  <i class="fa fa-fw fa-sort float-right"></i>
+                <th scope="col">
+                  <div class="plan-state">
+                    Trạng thái
+                    <i class="fa fa-fw fa-sort float-right"></i>
+                  </div>
                 </th>
                 <th scope="col">Hành động</th>
               </tr>
